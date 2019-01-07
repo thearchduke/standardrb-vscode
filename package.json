@@ -1,0 +1,21 @@
+{
+  "name": "standardrb-vscode",
+  "description": "Quick and dirty vscode extension for formatting ruby files on save",
+  "version": "0.0.1",
+  "publisher": "thearchduke",
+  "repository": "https://git.liveramp.net/tyburk/standardrb-vscode",
+  "engines": {
+    "vscode": "^1.25.0"
+  },
+  "activationEvents": [
+    "onLanguage:ruby"
+  ],
+  "main": "./src/extension.js",
+  "contributes": {},
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install"
+  },
+  "devDependencies": {
+    "vscode": "^1.1.22"
+  }
+}
